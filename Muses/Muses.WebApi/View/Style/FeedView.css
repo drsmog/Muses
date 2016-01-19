@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.feedTitle {
+    border-bottom: 1px solid black;
+}
+
+.feedBody {
+    border-left: 4px solid rgb(81,195,164);
+    background: ghostwhite
+}

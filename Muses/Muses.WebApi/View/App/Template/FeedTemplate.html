@@ -1,0 +1,15 @@
+﻿<div>
+
+    <div class="searchInput">
+        <input type="text" ng-model="searchString" ng-change="searchStringChangedEvent()" />
+    </div>
+
+    <div ng-repeat="feed in  feedCollection">
+        
+        <div class="feedTitle"><b>{{feed.Title}}</b></div>
+        <div class="categoryList">tags...</div>
+        <div class="authors">authors..</div>
+        <div class="feedBody" ng-bind-html="feed.Content"></div>
+
+    </div>
+</div>

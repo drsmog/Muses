@@ -74,6 +74,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="View\App\App.js" />
+    <Content Include="View\App\Controllers\FeedController.js" />
+    <Content Include="View\App\Factories\FeedFactory.js" />
+    <Content Include="View\App\Template\FeedTemplate.html" />
+    <Content Include="View\bower_components\angular-route\angular-route.min.js" />
+    <Content Include="View\bower_components\angular-sanitize\angular-sanitize.min.js" />
+    <Content Include="View\bower_components\angular\angular.min.js" />
+    <Content Include="View\index.html" />
+    <Content Include="View\Style\FeedView.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
